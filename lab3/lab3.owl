@@ -1,0 +1,886 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#combined -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#combined">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bobtail"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Norwegian_forest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Combined"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#crap -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#crap">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_colors"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bengal"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British_marbled"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#With_crap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#curly -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#curly">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_length"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Laperm"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Curly_haired"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#hard -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#hard">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_length"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_wirehair"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Wire_haired"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_bodytype -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_bodytype">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_colors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_colors">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_length -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_length">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Abyssinian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British_marbled"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Exotic_shorthair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Oriental"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Snowshoe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bobtail"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Norwegian_forest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Combined"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#long -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#long">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_length"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_curl"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bobtail"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Maine_coon"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Norwegian_forest"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Persian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ragdoll"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Turkish_van"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Long_haired"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#many -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#many">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_colors"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_curl"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_wirehair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bobtail"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Exotic_shorthair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Maine_coon"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Manchkin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Norwegian_forest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Motley"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#marble_tabby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#marble_tabby">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bengal"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British_marbled"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Exotic_shorthair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Pixie_bob"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Marble_tabby"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#one -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#one">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_colors"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Abyssinian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Caracat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Don_sphynx"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Kao_mani"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Laperm"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Likoy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Oriental"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Persian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Peterbald"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Russian_blue"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Scottish_straight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Monocoloured"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#short -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#short">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_length"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Abyssinian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Asian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bengal"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British_marbled"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Caracat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Exotic_shorthair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Kao_mani"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Likoy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Manchkin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Oriental"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Pixie_bob"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Russian_blue"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Scottish_straight"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Snowshoe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Short_haired"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#siam_pattern -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#siam_pattern">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ragdoll"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Snowshoe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Siamese_pattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#tabby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#tabby">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Asian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bengal"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Don_sphynx"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Peterbald"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Tabby"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#thick -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#thick">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_bodytype"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_curl"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_wirehair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Asian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bengal"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bobtail"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British_marbled"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Caracat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Exotic_shorthair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Laperm"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Maine_coon"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Manchkin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Norwegian_forest"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Persian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Pixie_bob"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ragdoll"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Scottish_straight"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Snowshoe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Turkish_van"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Strong"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#thin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#thin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#thin">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_bodytype"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Abyssinian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Don_sphynx"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Kao_mani"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Likoy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Oriental"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Peterbald"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Russian_blue"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Elegant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#thorby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#thorby">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Maine_coon"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Persian"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Thorby"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#ticking -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#ticking">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Abyssinian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ticking"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#two -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#two">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_colors"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Asian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Exotic_shorthair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Persian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Pixie_bob"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ragdoll"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Snowshoe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Turkish_van"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Doublecolored"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#van -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#van">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_pattern"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Turkish_van"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Van"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#without -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#without">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#has_fur_length"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Don_sphynx"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Peterbald"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Hairless"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Abyssinian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Abyssinian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_curl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_curl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_wirehair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_wirehair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Asian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Asian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bengal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bengal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bobtail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bobtail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British_marbled -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British_marbled">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Caracat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Caracat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cats"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Coat_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Coat_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Color_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Color_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Combined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Combined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Fur_pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Curly_haired -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Curly_haired">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Coat_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Don_sphynx -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Don_sphynx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Doublecolored -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Doublecolored">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Color_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Elegant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Elegant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Physique"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Strong"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Exotic_shorthair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Exotic_shorthair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Fur_pattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Fur_pattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Hairless -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Hairless">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Coat_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Kao_mani -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Kao_mani">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Laperm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Laperm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Likoy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Likoy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Long_haired -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Long_haired">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Coat_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Maine_coon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Maine_coon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Manchkin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Manchkin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Marble_tabby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Marble_tabby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Fur_pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Monocoloured -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Monocoloured">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Color_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Motley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Motley">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Color_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Norwegian_forest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Norwegian_forest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Oriental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Oriental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Persian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Persian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Peterbald -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Peterbald">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Physique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Physique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Pixie_bob -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Pixie_bob">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ragdoll -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ragdoll">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Russian_blue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Russian_blue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Scottish_straight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Scottish_straight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Short_haired -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Short_haired">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Coat_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Siamese_pattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Siamese_pattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Fur_pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Snowshoe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Snowshoe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Strong -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Strong">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Tabby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Tabby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Fur_pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Thorby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Thorby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Fur_pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ticking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ticking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Fur_pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Turkish_van -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Turkish_van">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Van -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Van">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Fur_pattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Wire_haired -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Wire_haired">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Coat_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#With_crap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#With_crap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Color_type"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Abyssinian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_curl"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#American_wirehair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Asian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bengal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Bobtail"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#British_marbled"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Caracat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Cornish_rex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Don_sphynx"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Exotic_shorthair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Kao_mani"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Laperm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Likoy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Maine_coon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Manchkin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Norwegian_forest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Oriental"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Persian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Peterbald"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Pixie_bob"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ragdoll"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Russian_blue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Scottish_straight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Snowshoe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Turkish_van"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Breed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Coat_type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Color_type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Physique"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Combined"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Marble_tabby"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Siamese_pattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Tabby"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Thorby"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Ticking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Van"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Curly_haired"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Hairless"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Long_haired"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Short_haired"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Wire_haired"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Doublecolored"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Monocoloured"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#Motley"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#With_crap"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#combined"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#marble_tabby"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#siam_pattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#tabby"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#thorby"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#ticking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#van"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#crap"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#many"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#one"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#two"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#curly"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#hard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#long"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#short"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sz_258/ontologies/2020/9/untitled-ontology-4#without"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
